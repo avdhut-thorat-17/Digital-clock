@@ -1,0 +1,59 @@
+/* Reset some default styles for better consistency */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the clock container */
+.clock {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #333;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Style for the time parts (hours, minutes, seconds) */
+.time-part {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* Add a different background color on hover for a subtle effect */
+.time-part:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Style for the colon separators between time parts */
+.separator {
+    display: inline-block;
+    color: #aaa;
+    font-size: 2rem;
+    margin: 0 5px;
+}
+
+/* Style for the digital clock with a slight pulsing effect */
+.clock.pulse {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.02);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
