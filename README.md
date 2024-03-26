@@ -1,6 +1,8 @@
 # Digital-clock
 A simple digital clock web application created using HTML, CSS, and JavaScript. This project displays the current time in a digital format and offers a visually pleasing design with a classic digital clock look.
 
+Site is Live at https://avdhut-thorat-17.github.io/Digital-clock/
+
 # Features
 Real-time Clock Display: The clock updates in real-time, showing the current hours, minutes, and seconds.
 Classic Digital Style: The clock's appearance resembles that of a classic digital clock, making it visually familiar.
